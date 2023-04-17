@@ -14,7 +14,6 @@ function getEmailDomain(email) {
   let res = email.split('@');
   let index = res.length - 1;
   return res[index];
-
 };
 module.exports = {
   getEmailDomain
